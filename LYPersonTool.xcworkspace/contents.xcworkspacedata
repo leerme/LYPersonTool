@@ -53,33 +53,6 @@
          location = "group:OC&#x7248;"
          name = "OC&#x7248;">
          <Group
-            location = "group:Assets.xcassets"
-            name = "Assets.xcassets">
-            <Group
-               location = "group:AppIcon.appiconset"
-               name = "AppIcon.appiconset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-         </Group>
-         <Group
-            location = "group:Base.lproj"
-            name = "Base.lproj">
-            <FileRef
-               location = "group:Main.storyboard">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:DelegateManager.h">
-         </FileRef>
-         <FileRef
-            location = "group:DelegateManager.m">
-         </FileRef>
-         <FileRef
-            location = "group:Info.plist">
-         </FileRef>
-         <Group
             location = "group:LYRollingNoticeDemo"
             name = "LYRollingNoticeDemo">
             <Group
@@ -105,6 +78,39 @@
                location = "group:LYRollingNoticeViewController.m">
             </FileRef>
          </Group>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:DelegateManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:DelegateManager.m">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
          <FileRef
             location = "group:main.m">
          </FileRef>
@@ -125,12 +131,6 @@
                </FileRef>
             </Group>
          </Group>
-         <FileRef
-            location = "group:ViewController.h">
-         </FileRef>
-         <FileRef
-            location = "group:ViewController.m">
-         </FileRef>
       </Group>
       <FileRef
          location = "group:OC&#x7248;.xcodeproj">
