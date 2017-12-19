@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cfg-Cl-UQ8" customClass="LYRollingCell2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tb_icon" translatesAutoresizingMaskIntoConstraints="NO" id="i2q-nW-34l">
+                    <rect key="frame" x="15" y="1.5" width="45" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="GHe-wt-Gi9"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tb_icon2" translatesAutoresizingMaskIntoConstraints="NO" id="4UR-YW-Tsx">
+                    <rect key="frame" x="291" y="1" width="84" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="iAh-jY-Ss7"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ubo-rP-OTi">
+                    <rect key="frame" x="68" y="6.5" width="30" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="XrG-pA-PRp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.38945606700000002" blue="0.22887987300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="leerme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTC-9Y-CL3">
+                    <rect key="frame" x="100" y="7" width="186" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电脑" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJr-Rm-9yO">
+                    <rect key="frame" x="68" y="29" width="30" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="1qt-Bj-Si9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="0.38945606700000002" blue="0.22887987300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="leerme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbV-pc-9gd">
+                    <rect key="frame" x="100" y="29" width="186" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.88549951770000002" green="1" blue="0.86145661350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4UR-YW-Tsx" secondAttribute="trailing" id="A0A-y8-ch9"/>
+                <constraint firstItem="Ubo-rP-OTi" firstAttribute="leading" secondItem="i2q-nW-34l" secondAttribute="trailing" constant="8" id="BeW-kL-cIF"/>
+                <constraint firstItem="4UR-YW-Tsx" firstAttribute="centerY" secondItem="cfg-Cl-UQ8" secondAttribute="centerY" id="KGc-1c-ZtM"/>
+                <constraint firstItem="eTC-9Y-CL3" firstAttribute="centerY" secondItem="Ubo-rP-OTi" secondAttribute="centerY" id="LAW-01-Mh8"/>
+                <constraint firstItem="BbV-pc-9gd" firstAttribute="leading" secondItem="eTC-9Y-CL3" secondAttribute="leading" id="OGF-9W-uO7"/>
+                <constraint firstItem="i2q-nW-34l" firstAttribute="centerY" secondItem="cfg-Cl-UQ8" secondAttribute="centerY" id="YJY-GV-fUr"/>
+                <constraint firstItem="uJr-Rm-9yO" firstAttribute="bottom" secondItem="i2q-nW-34l" secondAttribute="bottom" constant="-5" id="ahe-LG-3g7"/>
+                <constraint firstItem="i2q-nW-34l" firstAttribute="leading" secondItem="cfg-Cl-UQ8" secondAttribute="leading" constant="15" id="djJ-ZQ-mNq"/>
+                <constraint firstItem="eTC-9Y-CL3" firstAttribute="leading" secondItem="Ubo-rP-OTi" secondAttribute="trailing" constant="2" id="etz-hM-WNV"/>
+                <constraint firstItem="Ubo-rP-OTi" firstAttribute="top" secondItem="i2q-nW-34l" secondAttribute="top" constant="5" id="gVp-VX-NHt"/>
+                <constraint firstItem="4UR-YW-Tsx" firstAttribute="leading" secondItem="eTC-9Y-CL3" secondAttribute="trailing" constant="5" id="hLL-GO-s8o"/>
+                <constraint firstItem="BbV-pc-9gd" firstAttribute="centerY" secondItem="uJr-Rm-9yO" secondAttribute="centerY" id="htg-Eg-Woz"/>
+                <constraint firstItem="BbV-pc-9gd" firstAttribute="trailing" secondItem="eTC-9Y-CL3" secondAttribute="trailing" id="ne9-D4-1yG"/>
+                <constraint firstItem="uJr-Rm-9yO" firstAttribute="leading" secondItem="Ubo-rP-OTi" secondAttribute="leading" id="p7d-WH-OSf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ZYb-Gz-J30"/>
+            <connections>
+                <outlet property="tagLab0" destination="Ubo-rP-OTi" id="RiV-Rj-YFL"/>
+                <outlet property="tagLab1" destination="uJr-Rm-9yO" id="rgs-MH-oGs"/>
+                <outlet property="titleLab0" destination="eTC-9Y-CL3" id="jvu-iT-L9i"/>
+                <outlet property="titleLab1" destination="BbV-pc-9gd" id="qiA-Ms-DoS"/>
+                <outlet property="trailIconImgView" destination="4UR-YW-Tsx" id="sad-7y-50h"/>
+            </connections>
+            <point key="canvasLocation" x="-282" y="-433"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tb_icon" width="45" height="47"/>
+        <image name="tb_icon2" width="84" height="48"/>
+    </resources>
+</document>

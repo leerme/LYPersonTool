@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD61FE80EF6003F250A /* LYRollingCell1.m */; };
+		60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FD71FE80EF6003F250A /* LYRollingCell1.xib */; };
+		60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD91FE80EF6003F250A /* LYRollingCell2.m */; };
+		60962FDE1FE80EF6003F250A /* LYRollingCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FDA1FE80EF6003F250A /* LYRollingCell2.xib */; };
+		60962FE61FE8AAE0003F250A /* LYWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FE51FE8AAE0003F250A /* LYWaveViewController.m */; };
 		60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33AB91FE26D3C00086F15 /* AppDelegate.m */; };
 		60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33ABC1FE26D3C00086F15 /* ViewController.m */; };
 		60D33AC01FE26D3C00086F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D33ABE1FE26D3C00086F15 /* Main.storyboard */; };
@@ -20,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60962FD51FE80EF6003F250A /* LYRollingCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRollingCell1.h; sourceTree = "<group>"; };
+		60962FD61FE80EF6003F250A /* LYRollingCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRollingCell1.m; sourceTree = "<group>"; };
+		60962FD71FE80EF6003F250A /* LYRollingCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYRollingCell1.xib; sourceTree = "<group>"; };
+		60962FD81FE80EF6003F250A /* LYRollingCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRollingCell2.h; sourceTree = "<group>"; };
+		60962FD91FE80EF6003F250A /* LYRollingCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRollingCell2.m; sourceTree = "<group>"; };
+		60962FDA1FE80EF6003F250A /* LYRollingCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYRollingCell2.xib; sourceTree = "<group>"; };
+		60962FE41FE8AAE0003F250A /* LYWaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWaveViewController.h; sourceTree = "<group>"; };
+		60962FE51FE8AAE0003F250A /* LYWaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWaveViewController.m; sourceTree = "<group>"; };
 		60D33AB51FE26D3C00086F15 /* OC版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D33AB81FE26D3C00086F15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60D33AB91FE26D3C00086F15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60962FD41FE80EF6003F250A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				60962FD51FE80EF6003F250A /* LYRollingCell1.h */,
+				60962FD61FE80EF6003F250A /* LYRollingCell1.m */,
+				60962FD71FE80EF6003F250A /* LYRollingCell1.xib */,
+				60962FD81FE80EF6003F250A /* LYRollingCell2.h */,
+				60962FD91FE80EF6003F250A /* LYRollingCell2.m */,
+				60962FDA1FE80EF6003F250A /* LYRollingCell2.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		60962FDF1FE8AA51003F250A /* LYWaveViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60962FE01FE8AAA6003F250A /* LYWaveView */,
+				60962FE41FE8AAE0003F250A /* LYWaveViewController.h */,
+				60962FE51FE8AAE0003F250A /* LYWaveViewController.m */,
+			);
+			path = LYWaveViewDemo;
+			sourceTree = "<group>";
+		};
+		60962FE01FE8AAA6003F250A /* LYWaveView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LYWaveView;
+			sourceTree = "<group>";
+		};
 		60D33AAC1FE26D3C00086F15 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +113,7 @@
 		60D33AB71FE26D3C00086F15 /* OC版 */ = {
 			isa = PBXGroup;
 			children = (
+				60962FDF1FE8AA51003F250A /* LYWaveViewDemo */,
 				60D33ACF1FE2816300086F15 /* LYRollingNoticeDemo */,
 				60D33ABB1FE26D3C00086F15 /* ViewController.h */,
 				60D33ABC1FE26D3C00086F15 /* ViewController.m */,
@@ -87,6 +131,7 @@
 		60D33ACF1FE2816300086F15 /* LYRollingNoticeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				60962FD41FE80EF6003F250A /* Cell */,
 				60D33AD41FE368FC00086F15 /* LYRollingNotice */,
 				60D33AD51FE3691F00086F15 /* LYRollingNoticeViewController.h */,
 				60D33AD61FE3691F00086F15 /* LYRollingNoticeViewController.m */,
@@ -173,7 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */,
 				60D33AC51FE26D3C00086F15 /* LaunchScreen.storyboard in Resources */,
+				60962FDE1FE80EF6003F250A /* LYRollingCell2.xib in Resources */,
 				60D33AC21FE26D3C00086F15 /* Assets.xcassets in Resources */,
 				60D33AC01FE26D3C00086F15 /* Main.storyboard in Resources */,
 			);
@@ -186,8 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */,
 				60D33AD71FE3691F00086F15 /* LYRollingNoticeViewController.m in Sources */,
 				60D33ADE1FE3B80200086F15 /* LYNotiveViewCell.m in Sources */,
+				60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */,
+				60962FE61FE8AAE0003F250A /* LYWaveViewController.m in Sources */,
 				60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */,
 				60D33AD31FE364DC00086F15 /* LYRollingNoticeView.m in Sources */,
 				60D33AC81FE26D3C00086F15 /* main.m in Sources */,
