@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _informationArray = @[@"LYRollingNoticeDemo"];
+    _informationArray = @[@"LYRollingNoticeDemo",@"LYWaveDemo"];
     self.tableView.rowHeight = 40;
     self.tableView.delegate = self.delegateManager;
     self.tableView.dataSource = self.delegateManager;

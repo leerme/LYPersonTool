@@ -34,6 +34,10 @@ typedef enum : NSUInteger {
     self.title = NSStringFromClass(self.class);
     self.view.backgroundColor = [UIColor whiteColor];
     
+    [self addRollingNoticeView];
+}
+
+- (void)addRollingNoticeView{
     float width = [[UIScreen mainScreen] bounds].size.width;
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 40, width, 100)];
     label.textAlignment = NSTextAlignmentCenter;
@@ -91,7 +95,6 @@ typedef enum : NSUInteger {
     
     [noticeView reloadDataAndStartRoll];
 }
-
 
 - (NSInteger)numberOfRowsForRollingNoticeView:(LYRollingNoticeView *)rollingView
 {

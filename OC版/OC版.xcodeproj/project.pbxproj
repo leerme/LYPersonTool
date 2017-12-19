@@ -12,6 +12,7 @@
 		60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD91FE80EF6003F250A /* LYRollingCell2.m */; };
 		60962FDE1FE80EF6003F250A /* LYRollingCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FDA1FE80EF6003F250A /* LYRollingCell2.xib */; };
 		60962FE61FE8AAE0003F250A /* LYWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FE51FE8AAE0003F250A /* LYWaveViewController.m */; };
+		60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FE81FE8AD6D003F250A /* LYWaveView.m */; };
 		60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33AB91FE26D3C00086F15 /* AppDelegate.m */; };
 		60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33ABC1FE26D3C00086F15 /* ViewController.m */; };
 		60D33AC01FE26D3C00086F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D33ABE1FE26D3C00086F15 /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 		60962FDA1FE80EF6003F250A /* LYRollingCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYRollingCell2.xib; sourceTree = "<group>"; };
 		60962FE41FE8AAE0003F250A /* LYWaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWaveViewController.h; sourceTree = "<group>"; };
 		60962FE51FE8AAE0003F250A /* LYWaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWaveViewController.m; sourceTree = "<group>"; };
+		60962FE71FE8AD6D003F250A /* LYWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWaveView.h; sourceTree = "<group>"; };
+		60962FE81FE8AD6D003F250A /* LYWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWaveView.m; sourceTree = "<group>"; };
 		60D33AB51FE26D3C00086F15 /* OC版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D33AB81FE26D3C00086F15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60D33AB91FE26D3C00086F15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		60962FE01FE8AAA6003F250A /* LYWaveView */ = {
 			isa = PBXGroup;
 			children = (
+				60962FE71FE8AD6D003F250A /* LYWaveView.h */,
+				60962FE81FE8AD6D003F250A /* LYWaveView.m */,
 			);
 			path = LYWaveView;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				60D33AC81FE26D3C00086F15 /* main.m in Sources */,
 				60D33ADB1FE37B6C00086F15 /* DelegateManager.m in Sources */,
 				60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */,
+				60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

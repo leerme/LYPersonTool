@@ -7,6 +7,7 @@
 //
 
 #import "LYWaveViewController.h"
+#import "LYWaveView.h"
 
 @interface LYWaveViewController ()
 
@@ -16,22 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = NSStringFromClass(self.class);
+    LYWaveView * waveView = [[LYWaveView alloc]initWithFrame:self.view.bounds];
+    waveView.backgroundColor = [UIColor brownColor];
+    [self.view addSubview:waveView];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    [self.view addSubview:label];
+    
+    label.text = @"往下拉";
+    label.font = [UIFont systemFontOfSize:22];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.center = self.view.center;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
