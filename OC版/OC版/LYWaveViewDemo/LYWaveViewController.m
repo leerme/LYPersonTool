@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = NSStringFromClass(self.class);
-    LYWaveView * waveView = [[LYWaveView alloc]initWithFrame:self.view.bounds];
+    
+    LYWaveView * waveView = [[LYWaveView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height)];
     waveView.backgroundColor = [UIColor brownColor];
     [self.view addSubview:waveView];
     

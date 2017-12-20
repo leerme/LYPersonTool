@@ -13,6 +13,8 @@
 		60962FDE1FE80EF6003F250A /* LYRollingCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FDA1FE80EF6003F250A /* LYRollingCell2.xib */; };
 		60962FE61FE8AAE0003F250A /* LYWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FE51FE8AAE0003F250A /* LYWaveViewController.m */; };
 		60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FE81FE8AD6D003F250A /* LYWaveView.m */; };
+		60962FEE1FE8FFFB003F250A /* LYLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FED1FE8FFFB003F250A /* LYLineChartViewController.m */; };
+		60962FF11FE90194003F250A /* LYLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FF01FE90194003F250A /* LYLineChartView.m */; };
 		60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33AB91FE26D3C00086F15 /* AppDelegate.m */; };
 		60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33ABC1FE26D3C00086F15 /* ViewController.m */; };
 		60D33AC01FE26D3C00086F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D33ABE1FE26D3C00086F15 /* Main.storyboard */; };
@@ -36,6 +38,10 @@
 		60962FE51FE8AAE0003F250A /* LYWaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWaveViewController.m; sourceTree = "<group>"; };
 		60962FE71FE8AD6D003F250A /* LYWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWaveView.h; sourceTree = "<group>"; };
 		60962FE81FE8AD6D003F250A /* LYWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWaveView.m; sourceTree = "<group>"; };
+		60962FEC1FE8FFFB003F250A /* LYLineChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLineChartViewController.h; sourceTree = "<group>"; };
+		60962FED1FE8FFFB003F250A /* LYLineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLineChartViewController.m; sourceTree = "<group>"; };
+		60962FEF1FE90194003F250A /* LYLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLineChartView.h; sourceTree = "<group>"; };
+		60962FF01FE90194003F250A /* LYLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLineChartView.m; sourceTree = "<group>"; };
 		60D33AB51FE26D3C00086F15 /* OC版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D33AB81FE26D3C00086F15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60D33AB91FE26D3C00086F15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +105,25 @@
 			path = LYWaveView;
 			sourceTree = "<group>";
 		};
+		60962FEA1FE8FFC2003F250A /* LYLineChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60962FEB1FE8FFC2003F250A /* LYLineChart */,
+				60962FEC1FE8FFFB003F250A /* LYLineChartViewController.h */,
+				60962FED1FE8FFFB003F250A /* LYLineChartViewController.m */,
+			);
+			path = LYLineChartDemo;
+			sourceTree = "<group>";
+		};
+		60962FEB1FE8FFC2003F250A /* LYLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				60962FEF1FE90194003F250A /* LYLineChartView.h */,
+				60962FF01FE90194003F250A /* LYLineChartView.m */,
+			);
+			path = LYLineChart;
+			sourceTree = "<group>";
+		};
 		60D33AAC1FE26D3C00086F15 = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +143,9 @@
 		60D33AB71FE26D3C00086F15 /* OC版 */ = {
 			isa = PBXGroup;
 			children = (
-				60962FDF1FE8AA51003F250A /* LYWaveViewDemo */,
 				60D33ACF1FE2816300086F15 /* LYRollingNoticeDemo */,
+				60962FDF1FE8AA51003F250A /* LYWaveViewDemo */,
+				60962FEA1FE8FFC2003F250A /* LYLineChartDemo */,
 				60D33ABB1FE26D3C00086F15 /* ViewController.h */,
 				60D33ABC1FE26D3C00086F15 /* ViewController.m */,
 				60D33AD91FE37B6C00086F15 /* DelegateManager.h */,
@@ -244,8 +270,10 @@
 				60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */,
 				60962FE61FE8AAE0003F250A /* LYWaveViewController.m in Sources */,
 				60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */,
+				60962FF11FE90194003F250A /* LYLineChartView.m in Sources */,
 				60D33AD31FE364DC00086F15 /* LYRollingNoticeView.m in Sources */,
 				60D33AC81FE26D3C00086F15 /* main.m in Sources */,
+				60962FEE1FE8FFFB003F250A /* LYLineChartViewController.m in Sources */,
 				60D33ADB1FE37B6C00086F15 /* DelegateManager.m in Sources */,
 				60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */,
 				60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */,
