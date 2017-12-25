@@ -54,7 +54,6 @@
 		60D33A991FE26CF200086F15 /* Swift版 */ = {
 			isa = PBXGroup;
 			children = (
-				60D33AD01FE2816C00086F15 /* LYRollingNoticeView */,
 				60D33A9A1FE26CF200086F15 /* AppDelegate.swift */,
 				60D33A9C1FE26CF200086F15 /* ViewController.swift */,
 				60D33A9E1FE26CF200086F15 /* Main.storyboard */,
@@ -63,13 +62,6 @@
 				60D33AA61FE26CF200086F15 /* Info.plist */,
 			);
 			path = "Swift版";
-			sourceTree = "<group>";
-		};
-		60D33AD01FE2816C00086F15 /* LYRollingNoticeView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LYRollingNoticeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -38,8 +38,10 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSString *str = self.informationArray[indexPath.row];
-    UIViewController *viewController = [NSClassFromString([str stringByReplacingOccurrencesOfString:@"Demo" withString:@"ViewController"]) new];
+
+    NSString *str = [@"LY" stringByAppendingString:[self.informationArray[indexPath.row] stringByReplacingOccurrencesOfString:@"Demo" withString:@"ViewController"]];
+    
+    UIViewController *viewController = [NSClassFromString(str) new];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

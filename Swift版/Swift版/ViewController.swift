@@ -8,11 +8,18 @@
 
 import UIKit
 
+struct Coll {
+    let raw:Int
+    
+    static let bottom = Coll(raw: 1);
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var s:Int = Coll.bottom;
+        
     }
 
     override func didReceiveMemoryWarning() {

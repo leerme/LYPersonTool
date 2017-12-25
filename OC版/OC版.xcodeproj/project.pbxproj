@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */; };
 		60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD61FE80EF6003F250A /* LYRollingCell1.m */; };
 		60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FD71FE80EF6003F250A /* LYRollingCell1.xib */; };
 		60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD91FE80EF6003F250A /* LYRollingCell2.m */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		602036F01FF09AF800E4DFA1 /* LYCellFoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCellFoldViewController.h; sourceTree = "<group>"; };
+		602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCellFoldViewController.m; sourceTree = "<group>"; };
 		60962FD51FE80EF6003F250A /* LYRollingCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRollingCell1.h; sourceTree = "<group>"; };
 		60962FD61FE80EF6003F250A /* LYRollingCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRollingCell1.m; sourceTree = "<group>"; };
 		60962FD71FE80EF6003F250A /* LYRollingCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYRollingCell1.xib; sourceTree = "<group>"; };
@@ -73,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602036EF1FF09AB200E4DFA1 /* LYCellFoldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				602036F01FF09AF800E4DFA1 /* LYCellFoldViewController.h */,
+				602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */,
+			);
+			path = LYCellFoldDemo;
+			sourceTree = "<group>";
+		};
 		60962FD41FE80EF6003F250A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +158,7 @@
 				60D33ACF1FE2816300086F15 /* LYRollingNoticeDemo */,
 				60962FDF1FE8AA51003F250A /* LYWaveViewDemo */,
 				60962FEA1FE8FFC2003F250A /* LYLineChartDemo */,
+				602036EF1FF09AB200E4DFA1 /* LYCellFoldDemo */,
 				60D33ABB1FE26D3C00086F15 /* ViewController.h */,
 				60D33ABC1FE26D3C00086F15 /* ViewController.m */,
 				60D33AD91FE37B6C00086F15 /* DelegateManager.h */,
@@ -272,6 +285,7 @@
 				60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */,
 				60962FF11FE90194003F250A /* LYLineChartView.m in Sources */,
 				60D33AD31FE364DC00086F15 /* LYRollingNoticeView.m in Sources */,
+				602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */,
 				60D33AC81FE26D3C00086F15 /* main.m in Sources */,
 				60962FEE1FE8FFFB003F250A /* LYLineChartViewController.m in Sources */,
 				60D33ADB1FE37B6C00086F15 /* DelegateManager.m in Sources */,
@@ -413,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA8WS26R8S;
 				INFOPLIST_FILE = "OC版/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuqi.leiyu.OC-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA8WS26R8S;
 				INFOPLIST_FILE = "OC版/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiuqi.leiyu.OC-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
