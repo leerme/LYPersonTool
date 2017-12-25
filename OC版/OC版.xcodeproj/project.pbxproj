@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */; };
+		602036F71FF13A7200E4DFA1 /* LYAliPayCellMoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036F51FF13A7200E4DFA1 /* LYAliPayCellMoveController.m */; };
+		602036F81FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602036F61FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib */; };
 		60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD61FE80EF6003F250A /* LYRollingCell1.m */; };
 		60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FD71FE80EF6003F250A /* LYRollingCell1.xib */; };
 		60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD91FE80EF6003F250A /* LYRollingCell2.m */; };
@@ -31,6 +33,9 @@
 /* Begin PBXFileReference section */
 		602036F01FF09AF800E4DFA1 /* LYCellFoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCellFoldViewController.h; sourceTree = "<group>"; };
 		602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCellFoldViewController.m; sourceTree = "<group>"; };
+		602036F41FF13A7200E4DFA1 /* LYAliPayCellMoveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAliPayCellMoveController.h; sourceTree = "<group>"; };
+		602036F51FF13A7200E4DFA1 /* LYAliPayCellMoveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAliPayCellMoveController.m; sourceTree = "<group>"; };
+		602036F61FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYAliPayCellMoveController.xib; sourceTree = "<group>"; };
 		60962FD51FE80EF6003F250A /* LYRollingCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRollingCell1.h; sourceTree = "<group>"; };
 		60962FD61FE80EF6003F250A /* LYRollingCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRollingCell1.m; sourceTree = "<group>"; };
 		60962FD71FE80EF6003F250A /* LYRollingCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYRollingCell1.xib; sourceTree = "<group>"; };
@@ -83,6 +88,24 @@
 				602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */,
 			);
 			path = LYCellFoldDemo;
+			sourceTree = "<group>";
+		};
+		602036F31FF13A2800E4DFA1 /* LYAliPayCellMoveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				602036F91FF13B6200E4DFA1 /* LYCellMoveCollectionView */,
+				602036F41FF13A7200E4DFA1 /* LYAliPayCellMoveController.h */,
+				602036F51FF13A7200E4DFA1 /* LYAliPayCellMoveController.m */,
+				602036F61FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib */,
+			);
+			path = LYAliPayCellMoveDemo;
+			sourceTree = "<group>";
+		};
+		602036F91FF13B6200E4DFA1 /* LYCellMoveCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LYCellMoveCollectionView;
 			sourceTree = "<group>";
 		};
 		60962FD41FE80EF6003F250A /* Cell */ = {
@@ -155,6 +178,7 @@
 		60D33AB71FE26D3C00086F15 /* OC版 */ = {
 			isa = PBXGroup;
 			children = (
+				602036F31FF13A2800E4DFA1 /* LYAliPayCellMoveDemo */,
 				60D33ACF1FE2816300086F15 /* LYRollingNoticeDemo */,
 				60962FDF1FE8AA51003F250A /* LYWaveViewDemo */,
 				60962FEA1FE8FFC2003F250A /* LYLineChartDemo */,
@@ -263,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */,
+				602036F81FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib in Resources */,
 				60D33AC51FE26D3C00086F15 /* LaunchScreen.storyboard in Resources */,
 				60962FDE1FE80EF6003F250A /* LYRollingCell2.xib in Resources */,
 				60D33AC21FE26D3C00086F15 /* Assets.xcassets in Resources */,
@@ -285,6 +310,7 @@
 				60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */,
 				60962FF11FE90194003F250A /* LYLineChartView.m in Sources */,
 				60D33AD31FE364DC00086F15 /* LYRollingNoticeView.m in Sources */,
+				602036F71FF13A7200E4DFA1 /* LYAliPayCellMoveController.m in Sources */,
 				602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */,
 				60D33AC81FE26D3C00086F15 /* main.m in Sources */,
 				60962FEE1FE8FFFB003F250A /* LYLineChartViewController.m in Sources */,
