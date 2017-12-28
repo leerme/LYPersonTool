@@ -89,7 +89,7 @@ typedef enum : NSUInteger {
         self.rollingNoticeView0 = noticeView;
     }else if (type == RollingNoticeComplex){
         self.rollingNoticeView1 = noticeView;
-        noticeView.stayInterVal = 4;
+        noticeView.stayInterVal = 2;
         noticeView.animateInterVal = 1;
     }
     
