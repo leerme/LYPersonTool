@@ -7,6 +7,7 @@
 //
 
 #import "LYCellFoldViewController.h"
+#import "UIViewController+title.h"
 
 @interface LYCellFoldViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -23,6 +24,7 @@
 @implementation LYCellFoldViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = [self getTitle];
     
     _isOpen=YES;
     _dataArray=[[NSMutableArray alloc]initWithObjects:@"open 0",@"open 1",@"open 2",@"open 3",@"open 4",@"open 5",@"open 6", nil];

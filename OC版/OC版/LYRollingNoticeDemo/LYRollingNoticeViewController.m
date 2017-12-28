@@ -9,7 +9,7 @@
 #import "LYRollingNoticeViewController.h"
 #import "LYRollingNoticeView.h"
 #import "LYRollingCell2.h"
-
+#import "UIViewController+title.h"
 
 typedef enum : NSUInteger {
     RollingNoticeEasy,
@@ -31,7 +31,7 @@ typedef enum : NSUInteger {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = NSStringFromClass(self.class);
+    self.title = [self getTitle];
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self addRollingNoticeView];

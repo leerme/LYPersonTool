@@ -42,6 +42,9 @@
     NSString *str = [@"LY" stringByAppendingString:[self.informationArray[indexPath.row] stringByReplacingOccurrencesOfString:@"Demo" withString:@"ViewController"]];
     
     UIViewController *viewController = [NSClassFromString(str) new];
+    if (!viewController) {
+        viewController = [[UIViewController alloc] initWithNibName:str bundle:nil];
+    }
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

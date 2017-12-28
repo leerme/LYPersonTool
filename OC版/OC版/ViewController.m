@@ -26,7 +26,8 @@
     _informationArray = @[@"RollingNoticeDemo",
                           @"WaveDemo",
                           @"LineChartDemo",
-                          @"CellFoldDemo"];
+                          @"CellFoldDemo",
+                          @"AliPayCellMoveDemo"];
     self.tableView.rowHeight = 40;
     self.tableView.delegate = self.delegateManager;
     self.tableView.dataSource = self.delegateManager;

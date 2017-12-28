@@ -8,7 +8,7 @@
 
 #import "LYWaveViewController.h"
 #import "LYWaveView.h"
-
+#import "UIViewController+title.h"
 
 
 @interface LYWaveViewController ()
@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = NSStringFromClass(self.class);
+    self.title = [self getTitle];
     
     LYWaveView * waveView = [[LYWaveView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height)];
     waveView.backgroundColor = [UIColor brownColor];

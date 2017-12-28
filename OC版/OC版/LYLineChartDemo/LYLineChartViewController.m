@@ -8,6 +8,7 @@
 
 #import "LYLineChartViewController.h"
 #import "LYLineChartView.h"
+#import "UIViewController+title.h"
 
 @interface LYLineChartViewController ()
 
@@ -17,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = NSStringFromClass(self.class);
+    self.title = [self getTitle];
     
     NSArray *arr = @[@"922",@"345",@"256",@"546",@"955",@"351",@"421",@"220",@"304",@"553",@"656",@"158"];
     

@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */; };
-		602036F71FF13A7200E4DFA1 /* LYAliPayCellMoveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036F51FF13A7200E4DFA1 /* LYAliPayCellMoveController.m */; };
-		602036F81FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602036F61FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib */; };
+		602036FC1FF13FE100E4DFA1 /* LYDragCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */; };
 		60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD61FE80EF6003F250A /* LYRollingCell1.m */; };
 		60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FD71FE80EF6003F250A /* LYRollingCell1.xib */; };
 		60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD91FE80EF6003F250A /* LYRollingCell2.m */; };
@@ -18,6 +17,30 @@
 		60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FE81FE8AD6D003F250A /* LYWaveView.m */; };
 		60962FEE1FE8FFFB003F250A /* LYLineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FED1FE8FFFB003F250A /* LYLineChartViewController.m */; };
 		60962FF11FE90194003F250A /* LYLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FF01FE90194003F250A /* LYLineChartView.m */; };
+		609F5AE71FF1E8BB00B28EF2 /* UIViewController+title.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F5AE61FF1E8BB00B28EF2 /* UIViewController+title.m */; };
+		609F5AEC1FF1EFA600B28EF2 /* LYAlipayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F5AEB1FF1EFA600B28EF2 /* LYAlipayModel.m */; };
+		609F5AF01FF1F1B900B28EF2 /* LYAlipayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F5AEE1FF1F1B900B28EF2 /* LYAlipayCell.m */; };
+		609F5AF11FF1F1B900B28EF2 /* LYAlipayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AEF1FF1F1B900B28EF2 /* LYAlipayCell.xib */; };
+		609F5B051FF1FA0600B28EF2 /* -1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AF31FF1FA0600B28EF2 /* -1.gif */; };
+		609F5B061FF1FA0600B28EF2 /* 共享单车.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AF41FF1FA0600B28EF2 /* 共享单车.png */; };
+		609F5B071FF1FA0600B28EF2 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AF51FF1FA0600B28EF2 /* 1.gif */; };
+		609F5B081FF1FA0600B28EF2 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AF61FF1FA0600B28EF2 /* 2.gif */; };
+		609F5B091FF1FA0600B28EF2 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AF71FF1FA0600B28EF2 /* 3.png */; };
+		609F5B0A1FF1FA0600B28EF2 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AF81FF1FA0600B28EF2 /* 4.gif */; };
+		609F5B0B1FF1FA0600B28EF2 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AF91FF1FA0600B28EF2 /* 5.gif */; };
+		609F5B0C1FF1FA0600B28EF2 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AFA1FF1FA0600B28EF2 /* iTunesArtwork.png */; };
+		609F5B0D1FF1FA0600B28EF2 /* ofo共享单车.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AFB1FF1FA0600B28EF2 /* ofo共享单车.png */; };
+		609F5B0E1FF1FA0600B28EF2 /* 信用卡.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AFC1FF1FA0600B28EF2 /* 信用卡.png */; };
+		609F5B0F1FF1FA0600B28EF2 /* 充值中心.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AFD1FF1FA0600B28EF2 /* 充值中心.png */; };
+		609F5B101FF1FA0600B28EF2 /* 分期.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AFE1FF1FA0600B28EF2 /* 分期.png */; };
+		609F5B111FF1FA0600B28EF2 /* 商家服务2.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5AFF1FF1FA0600B28EF2 /* 商家服务2.png */; };
+		609F5B121FF1FA0600B28EF2 /* 滴滴出行.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B001FF1FA0600B28EF2 /* 滴滴出行.png */; };
+		609F5B131FF1FA0600B28EF2 /* 火车票.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B011FF1FA0600B28EF2 /* 火车票.png */; };
+		609F5B141FF1FA0600B28EF2 /* 芝麻信用.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B021FF1FA0600B28EF2 /* 芝麻信用.png */; };
+		609F5B151FF1FA0600B28EF2 /* 花呗.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B031FF1FA0600B28EF2 /* 花呗.png */; };
+		609F5B161FF1FA0600B28EF2 /* 转账.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B041FF1FA0600B28EF2 /* 转账.png */; };
+		60B970FD1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B970FB1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m */; };
+		60B970FE1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B970FC1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib */; };
 		60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33AB91FE26D3C00086F15 /* AppDelegate.m */; };
 		60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33ABC1FE26D3C00086F15 /* ViewController.m */; };
 		60D33AC01FE26D3C00086F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D33ABE1FE26D3C00086F15 /* Main.storyboard */; };
@@ -33,9 +56,8 @@
 /* Begin PBXFileReference section */
 		602036F01FF09AF800E4DFA1 /* LYCellFoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCellFoldViewController.h; sourceTree = "<group>"; };
 		602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCellFoldViewController.m; sourceTree = "<group>"; };
-		602036F41FF13A7200E4DFA1 /* LYAliPayCellMoveController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAliPayCellMoveController.h; sourceTree = "<group>"; };
-		602036F51FF13A7200E4DFA1 /* LYAliPayCellMoveController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAliPayCellMoveController.m; sourceTree = "<group>"; };
-		602036F61FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYAliPayCellMoveController.xib; sourceTree = "<group>"; };
+		602036FA1FF13FE100E4DFA1 /* LYDragCellCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDragCellCollectionView.h; sourceTree = "<group>"; };
+		602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDragCellCollectionView.m; sourceTree = "<group>"; };
 		60962FD51FE80EF6003F250A /* LYRollingCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRollingCell1.h; sourceTree = "<group>"; };
 		60962FD61FE80EF6003F250A /* LYRollingCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRollingCell1.m; sourceTree = "<group>"; };
 		60962FD71FE80EF6003F250A /* LYRollingCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYRollingCell1.xib; sourceTree = "<group>"; };
@@ -50,6 +72,34 @@
 		60962FED1FE8FFFB003F250A /* LYLineChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLineChartViewController.m; sourceTree = "<group>"; };
 		60962FEF1FE90194003F250A /* LYLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLineChartView.h; sourceTree = "<group>"; };
 		60962FF01FE90194003F250A /* LYLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLineChartView.m; sourceTree = "<group>"; };
+		609F5AE51FF1E8BB00B28EF2 /* UIViewController+title.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+title.h"; sourceTree = "<group>"; };
+		609F5AE61FF1E8BB00B28EF2 /* UIViewController+title.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+title.m"; sourceTree = "<group>"; };
+		609F5AEA1FF1EFA600B28EF2 /* LYAlipayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAlipayModel.h; sourceTree = "<group>"; };
+		609F5AEB1FF1EFA600B28EF2 /* LYAlipayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAlipayModel.m; sourceTree = "<group>"; };
+		609F5AED1FF1F1B900B28EF2 /* LYAlipayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAlipayCell.h; sourceTree = "<group>"; };
+		609F5AEE1FF1F1B900B28EF2 /* LYAlipayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAlipayCell.m; sourceTree = "<group>"; };
+		609F5AEF1FF1F1B900B28EF2 /* LYAlipayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYAlipayCell.xib; sourceTree = "<group>"; };
+		609F5AF31FF1FA0600B28EF2 /* -1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "-1.gif"; sourceTree = "<group>"; };
+		609F5AF41FF1FA0600B28EF2 /* 共享单车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "共享单车.png"; sourceTree = "<group>"; };
+		609F5AF51FF1FA0600B28EF2 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		609F5AF61FF1FA0600B28EF2 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		609F5AF71FF1FA0600B28EF2 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		609F5AF81FF1FA0600B28EF2 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		609F5AF91FF1FA0600B28EF2 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		609F5AFA1FF1FA0600B28EF2 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		609F5AFB1FF1FA0600B28EF2 /* ofo共享单车.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ofo共享单车.png"; sourceTree = "<group>"; };
+		609F5AFC1FF1FA0600B28EF2 /* 信用卡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "信用卡.png"; sourceTree = "<group>"; };
+		609F5AFD1FF1FA0600B28EF2 /* 充值中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "充值中心.png"; sourceTree = "<group>"; };
+		609F5AFE1FF1FA0600B28EF2 /* 分期.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分期.png"; sourceTree = "<group>"; };
+		609F5AFF1FF1FA0600B28EF2 /* 商家服务2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商家服务2.png"; sourceTree = "<group>"; };
+		609F5B001FF1FA0600B28EF2 /* 滴滴出行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "滴滴出行.png"; sourceTree = "<group>"; };
+		609F5B011FF1FA0600B28EF2 /* 火车票.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "火车票.png"; sourceTree = "<group>"; };
+		609F5B021FF1FA0600B28EF2 /* 芝麻信用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芝麻信用.png"; sourceTree = "<group>"; };
+		609F5B031FF1FA0600B28EF2 /* 花呗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花呗.png"; sourceTree = "<group>"; };
+		609F5B041FF1FA0600B28EF2 /* 转账.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转账.png"; sourceTree = "<group>"; };
+		60B970FA1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAliPayCellMoveViewController.h; sourceTree = "<group>"; };
+		60B970FB1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAliPayCellMoveViewController.m; sourceTree = "<group>"; };
+		60B970FC1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYAliPayCellMoveViewController.xib; sourceTree = "<group>"; };
 		60D33AB51FE26D3C00086F15 /* OC版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D33AB81FE26D3C00086F15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60D33AB91FE26D3C00086F15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,19 +143,24 @@
 		602036F31FF13A2800E4DFA1 /* LYAliPayCellMoveDemo */ = {
 			isa = PBXGroup;
 			children = (
-				602036F91FF13B6200E4DFA1 /* LYCellMoveCollectionView */,
-				602036F41FF13A7200E4DFA1 /* LYAliPayCellMoveController.h */,
-				602036F51FF13A7200E4DFA1 /* LYAliPayCellMoveController.m */,
-				602036F61FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib */,
+				609F5AF21FF1FA0600B28EF2 /* ALipay Resources */,
+				609F5AE91FF1EF6400B28EF2 /* View */,
+				609F5AE81FF1EF6200B28EF2 /* Model */,
+				602036F91FF13B6200E4DFA1 /* LYDragCellCollectionView */,
+				60B970FA1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.h */,
+				60B970FB1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m */,
+				60B970FC1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib */,
 			);
 			path = LYAliPayCellMoveDemo;
 			sourceTree = "<group>";
 		};
-		602036F91FF13B6200E4DFA1 /* LYCellMoveCollectionView */ = {
+		602036F91FF13B6200E4DFA1 /* LYDragCellCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				602036FA1FF13FE100E4DFA1 /* LYDragCellCollectionView.h */,
+				602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */,
 			);
-			path = LYCellMoveCollectionView;
+			path = LYDragCellCollectionView;
 			sourceTree = "<group>";
 		};
 		60962FD41FE80EF6003F250A /* Cell */ = {
@@ -159,6 +214,59 @@
 			path = LYLineChart;
 			sourceTree = "<group>";
 		};
+		609F5AE11FF1E62E00B28EF2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				609F5AE51FF1E8BB00B28EF2 /* UIViewController+title.h */,
+				609F5AE61FF1E8BB00B28EF2 /* UIViewController+title.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		609F5AE81FF1EF6200B28EF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				609F5AEA1FF1EFA600B28EF2 /* LYAlipayModel.h */,
+				609F5AEB1FF1EFA600B28EF2 /* LYAlipayModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		609F5AE91FF1EF6400B28EF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				609F5AED1FF1F1B900B28EF2 /* LYAlipayCell.h */,
+				609F5AEE1FF1F1B900B28EF2 /* LYAlipayCell.m */,
+				609F5AEF1FF1F1B900B28EF2 /* LYAlipayCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		609F5AF21FF1FA0600B28EF2 /* ALipay Resources */ = {
+			isa = PBXGroup;
+			children = (
+				609F5AF31FF1FA0600B28EF2 /* -1.gif */,
+				609F5AF41FF1FA0600B28EF2 /* 共享单车.png */,
+				609F5AF51FF1FA0600B28EF2 /* 1.gif */,
+				609F5AF61FF1FA0600B28EF2 /* 2.gif */,
+				609F5AF71FF1FA0600B28EF2 /* 3.png */,
+				609F5AF81FF1FA0600B28EF2 /* 4.gif */,
+				609F5AF91FF1FA0600B28EF2 /* 5.gif */,
+				609F5AFA1FF1FA0600B28EF2 /* iTunesArtwork.png */,
+				609F5AFB1FF1FA0600B28EF2 /* ofo共享单车.png */,
+				609F5AFC1FF1FA0600B28EF2 /* 信用卡.png */,
+				609F5AFD1FF1FA0600B28EF2 /* 充值中心.png */,
+				609F5AFE1FF1FA0600B28EF2 /* 分期.png */,
+				609F5AFF1FF1FA0600B28EF2 /* 商家服务2.png */,
+				609F5B001FF1FA0600B28EF2 /* 滴滴出行.png */,
+				609F5B011FF1FA0600B28EF2 /* 火车票.png */,
+				609F5B021FF1FA0600B28EF2 /* 芝麻信用.png */,
+				609F5B031FF1FA0600B28EF2 /* 花呗.png */,
+				609F5B041FF1FA0600B28EF2 /* 转账.png */,
+			);
+			path = "ALipay Resources";
+			sourceTree = "<group>";
+		};
 		60D33AAC1FE26D3C00086F15 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +295,7 @@
 				60D33ABC1FE26D3C00086F15 /* ViewController.m */,
 				60D33AD91FE37B6C00086F15 /* DelegateManager.h */,
 				60D33ADA1FE37B6C00086F15 /* DelegateManager.m */,
+				609F5AE11FF1E62E00B28EF2 /* Category */,
 				60D33ABE1FE26D3C00086F15 /* Main.storyboard */,
 				60D33AC61FE26D3C00086F15 /* Info.plist */,
 				60D33AC71FE26D3C00086F15 /* main.m */,
@@ -286,12 +395,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				609F5B161FF1FA0600B28EF2 /* 转账.png in Resources */,
+				609F5B111FF1FA0600B28EF2 /* 商家服务2.png in Resources */,
+				609F5B081FF1FA0600B28EF2 /* 2.gif in Resources */,
+				609F5B051FF1FA0600B28EF2 /* -1.gif in Resources */,
+				609F5B0F1FF1FA0600B28EF2 /* 充值中心.png in Resources */,
+				609F5B0B1FF1FA0600B28EF2 /* 5.gif in Resources */,
+				609F5B0C1FF1FA0600B28EF2 /* iTunesArtwork.png in Resources */,
+				609F5B0A1FF1FA0600B28EF2 /* 4.gif in Resources */,
 				60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */,
-				602036F81FF13A7200E4DFA1 /* LYAliPayCellMoveController.xib in Resources */,
+				609F5B091FF1FA0600B28EF2 /* 3.png in Resources */,
+				609F5AF11FF1F1B900B28EF2 /* LYAlipayCell.xib in Resources */,
+				609F5B121FF1FA0600B28EF2 /* 滴滴出行.png in Resources */,
 				60D33AC51FE26D3C00086F15 /* LaunchScreen.storyboard in Resources */,
+				609F5B0D1FF1FA0600B28EF2 /* ofo共享单车.png in Resources */,
+				60B970FE1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib in Resources */,
 				60962FDE1FE80EF6003F250A /* LYRollingCell2.xib in Resources */,
 				60D33AC21FE26D3C00086F15 /* Assets.xcassets in Resources */,
+				609F5B0E1FF1FA0600B28EF2 /* 信用卡.png in Resources */,
+				609F5B151FF1FA0600B28EF2 /* 花呗.png in Resources */,
+				609F5B061FF1FA0600B28EF2 /* 共享单车.png in Resources */,
+				609F5B071FF1FA0600B28EF2 /* 1.gif in Resources */,
+				609F5B131FF1FA0600B28EF2 /* 火车票.png in Resources */,
 				60D33AC01FE26D3C00086F15 /* Main.storyboard in Resources */,
+				609F5B141FF1FA0600B28EF2 /* 芝麻信用.png in Resources */,
+				609F5B101FF1FA0600B28EF2 /* 分期.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,19 +432,23 @@
 			files = (
 				60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */,
 				60D33AD71FE3691F00086F15 /* LYRollingNoticeViewController.m in Sources */,
+				609F5AE71FF1E8BB00B28EF2 /* UIViewController+title.m in Sources */,
 				60D33ADE1FE3B80200086F15 /* LYNotiveViewCell.m in Sources */,
 				60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */,
 				60962FE61FE8AAE0003F250A /* LYWaveViewController.m in Sources */,
+				609F5AF01FF1F1B900B28EF2 /* LYAlipayCell.m in Sources */,
 				60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */,
 				60962FF11FE90194003F250A /* LYLineChartView.m in Sources */,
+				609F5AEC1FF1EFA600B28EF2 /* LYAlipayModel.m in Sources */,
 				60D33AD31FE364DC00086F15 /* LYRollingNoticeView.m in Sources */,
-				602036F71FF13A7200E4DFA1 /* LYAliPayCellMoveController.m in Sources */,
 				602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */,
 				60D33AC81FE26D3C00086F15 /* main.m in Sources */,
 				60962FEE1FE8FFFB003F250A /* LYLineChartViewController.m in Sources */,
 				60D33ADB1FE37B6C00086F15 /* DelegateManager.m in Sources */,
+				60B970FD1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m in Sources */,
 				60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */,
 				60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */,
+				602036FC1FF13FE100E4DFA1 /* LYDragCellCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
