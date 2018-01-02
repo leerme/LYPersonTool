@@ -39,6 +39,7 @@
 		609F5B141FF1FA0600B28EF2 /* 芝麻信用.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B021FF1FA0600B28EF2 /* 芝麻信用.png */; };
 		609F5B151FF1FA0600B28EF2 /* 花呗.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B031FF1FA0600B28EF2 /* 花呗.png */; };
 		609F5B161FF1FA0600B28EF2 /* 转账.png in Resources */ = {isa = PBXBuildFile; fileRef = 609F5B041FF1FA0600B28EF2 /* 转账.png */; };
+		609F5B1B1FFBC74200B28EF2 /* LYSlideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F5B1A1FFBC74200B28EF2 /* LYSlideMenuView.m */; };
 		60B970FD1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B970FB1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m */; };
 		60B970FE1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B970FC1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib */; };
 		60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33AB91FE26D3C00086F15 /* AppDelegate.m */; };
@@ -97,6 +98,8 @@
 		609F5B021FF1FA0600B28EF2 /* 芝麻信用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芝麻信用.png"; sourceTree = "<group>"; };
 		609F5B031FF1FA0600B28EF2 /* 花呗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花呗.png"; sourceTree = "<group>"; };
 		609F5B041FF1FA0600B28EF2 /* 转账.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转账.png"; sourceTree = "<group>"; };
+		609F5B191FFBC74200B28EF2 /* LYSlideMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSlideMenuView.h; sourceTree = "<group>"; };
+		609F5B1A1FFBC74200B28EF2 /* LYSlideMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSlideMenuView.m; sourceTree = "<group>"; };
 		60B970FA1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAliPayCellMoveViewController.h; sourceTree = "<group>"; };
 		60B970FB1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAliPayCellMoveViewController.m; sourceTree = "<group>"; };
 		60B970FC1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYAliPayCellMoveViewController.xib; sourceTree = "<group>"; };
@@ -267,6 +270,23 @@
 			path = "ALipay Resources";
 			sourceTree = "<group>";
 		};
+		609F5B171FFBC6D800B28EF2 /* LYSlideMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				609F5B181FFBC6EB00B28EF2 /* SlideMenuView */,
+			);
+			path = LYSlideMenuDemo;
+			sourceTree = "<group>";
+		};
+		609F5B181FFBC6EB00B28EF2 /* SlideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				609F5B191FFBC74200B28EF2 /* LYSlideMenuView.h */,
+				609F5B1A1FFBC74200B28EF2 /* LYSlideMenuView.m */,
+			);
+			path = SlideMenuView;
+			sourceTree = "<group>";
+		};
 		60D33AAC1FE26D3C00086F15 = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +306,7 @@
 		60D33AB71FE26D3C00086F15 /* OC版 */ = {
 			isa = PBXGroup;
 			children = (
+				609F5B171FFBC6D800B28EF2 /* LYSlideMenuDemo */,
 				602036F31FF13A2800E4DFA1 /* LYAliPayCellMoveDemo */,
 				60D33ACF1FE2816300086F15 /* LYRollingNoticeDemo */,
 				60962FDF1FE8AA51003F250A /* LYWaveViewDemo */,
@@ -444,6 +465,7 @@
 				602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */,
 				60D33AC81FE26D3C00086F15 /* main.m in Sources */,
 				60962FEE1FE8FFFB003F250A /* LYLineChartViewController.m in Sources */,
+				609F5B1B1FFBC74200B28EF2 /* LYSlideMenuView.m in Sources */,
 				60D33ADB1FE37B6C00086F15 /* DelegateManager.m in Sources */,
 				60B970FD1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m in Sources */,
 				60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */,
