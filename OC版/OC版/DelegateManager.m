@@ -7,6 +7,7 @@
 //
 
 #import "DelegateManager.h"
+#import "LYSlideMenuView.h"
 
 @interface DelegateManager()
 
@@ -38,8 +39,17 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-
+    
     NSString *str = [@"LY" stringByAppendingString:[self.informationArray[indexPath.row] stringByReplacingOccurrencesOfString:@"Demo" withString:@"ViewController"]];
+    
+    if ([str isEqualToString:@"LYSlideMenuViewController"]) {
+        LYSlideMenuView *menu = [[LYSlideMenuView alloc]initWithTitles:@[@"首页",@"消息",@"发布",@"发现",@"个人",@"设置"]];
+        menu.menuClickBlock = ^(NSInteger index,NSString *title,NSInteger titleCounts){
+            NSLog(@"index:%ld title:%@ titleCounts:%ld",(long)index,title,titleCounts);
+        };
+        [menu trigger];
+        return;
+    }
     
     UIViewController *viewController = [NSClassFromString(str) new];
     if (!viewController) {
