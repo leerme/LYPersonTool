@@ -49,6 +49,7 @@
         };
         [menu trigger];
         return;
+        
     }
     
     UIViewController *viewController = [NSClassFromString(str) new];
