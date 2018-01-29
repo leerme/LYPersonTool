@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zem-wv-CwD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zem-wv-CwD">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-1140" y="127"/>
         </scene>
-        <!--HOME-->
+        <!--平时小轮子-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -34,30 +34,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MOB-FK-C5S">
-                                <rect key="frame" x="0.0" y="92" width="375" height="575"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOB-FK-C5S">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="记录平时写的小Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMp-lb-drd">
-                                <rect key="frame" x="0.0" y="69" width="375" height="18"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="1" green="0.42352941179999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MOB-FK-C5S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0iF-WJ-n5j"/>
-                            <constraint firstItem="BMp-lb-drd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="7FQ-wJ-JWg"/>
-                            <constraint firstItem="MOB-FK-C5S" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ajg-h0-AG1"/>
-                            <constraint firstItem="MOB-FK-C5S" firstAttribute="top" secondItem="BMp-lb-drd" secondAttribute="bottom" constant="5" id="MLX-Ck-L7H"/>
-                            <constraint firstItem="BMp-lb-drd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UhY-1O-ToD"/>
-                            <constraint firstAttribute="bottom" secondItem="MOB-FK-C5S" secondAttribute="bottom" id="Wpz-1T-42f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BMp-lb-drd" secondAttribute="trailing" id="cv0-CF-Hwa"/>
+                            <constraint firstAttribute="trailing" secondItem="MOB-FK-C5S" secondAttribute="trailing" id="ET7-Rf-hy8"/>
+                            <constraint firstItem="MOB-FK-C5S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VtQ-57-TCC"/>
+                            <constraint firstItem="MOB-FK-C5S" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nE1-Wc-gij"/>
+                            <constraint firstAttribute="bottom" secondItem="MOB-FK-C5S" secondAttribute="bottom" id="qP3-97-PJM"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="tzV-Mb-8MN"/>
                     </view>
-                    <navigationItem key="navigationItem" title="HOME" id="uYA-px-RuQ"/>
+                    <navigationItem key="navigationItem" title="平时小轮子" id="uYA-px-RuQ"/>
                     <connections>
                         <outlet property="tableView" destination="MOB-FK-C5S" id="Iui-8d-qdQ"/>
                     </connections>
