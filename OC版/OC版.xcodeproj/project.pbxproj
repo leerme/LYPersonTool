@@ -10,6 +10,7 @@
 		602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */; };
 		602036FC1FF13FE100E4DFA1 /* LYDragCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */; };
 		60227858206CB6CE00070703 /* LYScrollNavigabarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60227857206CB6CE00070703 /* LYScrollNavigabarViewController.m */; };
+		6022785C206CB79C00070703 /* LYHorseRaceLampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6022785B206CB79C00070703 /* LYHorseRaceLampView.m */; };
 		606BEB0A2016E50700E40A62 /* LYRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606BEB092016E50700E40A62 /* LYRuntimeViewController.m */; };
 		60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD61FE80EF6003F250A /* LYRollingCell1.m */; };
 		60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FD71FE80EF6003F250A /* LYRollingCell1.xib */; };
@@ -65,6 +66,8 @@
 		602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDragCellCollectionView.m; sourceTree = "<group>"; };
 		60227856206CB6CE00070703 /* LYScrollNavigabarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYScrollNavigabarViewController.h; sourceTree = "<group>"; };
 		60227857206CB6CE00070703 /* LYScrollNavigabarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYScrollNavigabarViewController.m; sourceTree = "<group>"; };
+		6022785A206CB79C00070703 /* LYHorseRaceLampView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHorseRaceLampView.h; sourceTree = "<group>"; };
+		6022785B206CB79C00070703 /* LYHorseRaceLampView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHorseRaceLampView.m; sourceTree = "<group>"; };
 		606BEB082016E50700E40A62 /* LYRuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYRuntimeViewController.h; sourceTree = "<group>"; };
 		606BEB092016E50700E40A62 /* LYRuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYRuntimeViewController.m; sourceTree = "<group>"; };
 		60962FD51FE80EF6003F250A /* LYRollingCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRollingCell1.h; sourceTree = "<group>"; };
@@ -191,6 +194,8 @@
 		60227859206CB76C00070703 /* LYHorseRaceLampView */ = {
 			isa = PBXGroup;
 			children = (
+				6022785A206CB79C00070703 /* LYHorseRaceLampView.h */,
+				6022785B206CB79C00070703 /* LYHorseRaceLampView.m */,
 			);
 			path = LYHorseRaceLampView;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				60D33ADB1FE37B6C00086F15 /* DelegateManager.m in Sources */,
 				60B970FD1FF1E1DC0052B604 /* LYAliPayCellMoveViewController.m in Sources */,
 				606BEB0A2016E50700E40A62 /* LYRuntimeViewController.m in Sources */,
+				6022785C206CB79C00070703 /* LYHorseRaceLampView.m in Sources */,
 				60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */,
 				60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */,
 				60227858206CB6CE00070703 /* LYScrollNavigabarViewController.m in Sources */,
