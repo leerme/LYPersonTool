@@ -35,7 +35,7 @@
         
         self.timeInterval = [self displayDurationForString:title];
         
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundColor = [UIColor clearColor];
         self.clipsToBounds = YES;
         
         //

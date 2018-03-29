@@ -32,7 +32,7 @@
                           @"SlideMenuDemo",
                           @"RuntimeDemo",
                           @"UIFoldDemo",
-                          @"ScrollNavigabaDemo"];
+                          @"ScrollNavigabarDemo"];
     self.tableView.rowHeight = 40;
     self.tableView.delegate = self.delegateManager;
     self.tableView.dataSource = self.delegateManager;
