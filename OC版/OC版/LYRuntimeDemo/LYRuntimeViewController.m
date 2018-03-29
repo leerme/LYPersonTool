@@ -29,7 +29,7 @@
 - (void)speak {
     NSLog(@"my name's %@", self.name);
     NSLog(@"my name's %@", self.name1);
-    NSLog(@"my name's %p", &self.name2);
+//    NSLog(@"my name's %p", &self.name2);
 }
 @end
 

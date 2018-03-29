@@ -54,6 +54,7 @@
 		60D33AD71FE3691F00086F15 /* LYRollingNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33AD61FE3691F00086F15 /* LYRollingNoticeViewController.m */; };
 		60D33ADB1FE37B6C00086F15 /* DelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33ADA1FE37B6C00086F15 /* DelegateManager.m */; };
 		60D33ADE1FE3B80200086F15 /* LYNotiveViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D33ADD1FE3B80200086F15 /* LYNotiveViewCell.m */; };
+		60D6C7BF204E46D4005B0D69 /* LYUIFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D6C7BE204E46D4005B0D69 /* LYUIFoldViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +128,8 @@
 		60D33ADA1FE37B6C00086F15 /* DelegateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateManager.m; sourceTree = "<group>"; };
 		60D33ADC1FE3B80200086F15 /* LYNotiveViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNotiveViewCell.h; sourceTree = "<group>"; };
 		60D33ADD1FE3B80200086F15 /* LYNotiveViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNotiveViewCell.m; sourceTree = "<group>"; };
+		60D6C7BD204E46D4005B0D69 /* LYUIFoldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYUIFoldViewController.h; sourceTree = "<group>"; };
+		60D6C7BE204E46D4005B0D69 /* LYUIFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYUIFoldViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +326,7 @@
 		60D33AB71FE26D3C00086F15 /* OC版 */ = {
 			isa = PBXGroup;
 			children = (
+				60D6C7BC204E468B005B0D69 /* LYUIFoldDemo */,
 				606BEB072016E4E200E40A62 /* LYRuntimeDemo */,
 				609F5B171FFBC6D800B28EF2 /* LYSlideMenuDemo */,
 				602036F31FF13A2800E4DFA1 /* LYAliPayCellMoveDemo */,
@@ -374,6 +378,15 @@
 				60D33AC31FE26D3C00086F15 /* LaunchScreen.storyboard */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		60D6C7BC204E468B005B0D69 /* LYUIFoldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60D6C7BD204E46D4005B0D69 /* LYUIFoldViewController.h */,
+				60D6C7BE204E46D4005B0D69 /* LYUIFoldViewController.m */,
+			);
+			path = LYUIFoldDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,6 +488,7 @@
 				60D33ADE1FE3B80200086F15 /* LYNotiveViewCell.m in Sources */,
 				60962FDD1FE80EF6003F250A /* LYRollingCell2.m in Sources */,
 				60962FE61FE8AAE0003F250A /* LYWaveViewController.m in Sources */,
+				60D6C7BF204E46D4005B0D69 /* LYUIFoldViewController.m in Sources */,
 				609F5AF01FF1F1B900B28EF2 /* LYAlipayCell.m in Sources */,
 				60D33ABD1FE26D3C00086F15 /* ViewController.m in Sources */,
 				60962FF11FE90194003F250A /* LYLineChartView.m in Sources */,
