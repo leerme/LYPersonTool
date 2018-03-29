@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		602036F21FF09AF800E4DFA1 /* LYCellFoldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */; };
 		602036FC1FF13FE100E4DFA1 /* LYDragCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */; };
+		60227858206CB6CE00070703 /* LYScrollNavigabarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60227857206CB6CE00070703 /* LYScrollNavigabarViewController.m */; };
 		606BEB0A2016E50700E40A62 /* LYRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606BEB092016E50700E40A62 /* LYRuntimeViewController.m */; };
 		60962FDB1FE80EF6003F250A /* LYRollingCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 60962FD61FE80EF6003F250A /* LYRollingCell1.m */; };
 		60962FDC1FE80EF6003F250A /* LYRollingCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60962FD71FE80EF6003F250A /* LYRollingCell1.xib */; };
@@ -62,6 +63,8 @@
 		602036F11FF09AF800E4DFA1 /* LYCellFoldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCellFoldViewController.m; sourceTree = "<group>"; };
 		602036FA1FF13FE100E4DFA1 /* LYDragCellCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDragCellCollectionView.h; sourceTree = "<group>"; };
 		602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDragCellCollectionView.m; sourceTree = "<group>"; };
+		60227856206CB6CE00070703 /* LYScrollNavigabarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYScrollNavigabarViewController.h; sourceTree = "<group>"; };
+		60227857206CB6CE00070703 /* LYScrollNavigabarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYScrollNavigabarViewController.m; sourceTree = "<group>"; };
 		606BEB082016E50700E40A62 /* LYRuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYRuntimeViewController.h; sourceTree = "<group>"; };
 		606BEB092016E50700E40A62 /* LYRuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYRuntimeViewController.m; sourceTree = "<group>"; };
 		60962FD51FE80EF6003F250A /* LYRollingCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRollingCell1.h; sourceTree = "<group>"; };
@@ -173,6 +176,23 @@
 				602036FB1FF13FE100E4DFA1 /* LYDragCellCollectionView.m */,
 			);
 			path = LYDragCellCollectionView;
+			sourceTree = "<group>";
+		};
+		60227855206CB29F00070703 /* LYScrollNavigabarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60227859206CB76C00070703 /* LYHorseRaceLampView */,
+				60227856206CB6CE00070703 /* LYScrollNavigabarViewController.h */,
+				60227857206CB6CE00070703 /* LYScrollNavigabarViewController.m */,
+			);
+			path = LYScrollNavigabarDemo;
+			sourceTree = "<group>";
+		};
+		60227859206CB76C00070703 /* LYHorseRaceLampView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LYHorseRaceLampView;
 			sourceTree = "<group>";
 		};
 		606BEB072016E4E200E40A62 /* LYRuntimeDemo */ = {
@@ -326,6 +346,7 @@
 		60D33AB71FE26D3C00086F15 /* OC版 */ = {
 			isa = PBXGroup;
 			children = (
+				60227855206CB29F00070703 /* LYScrollNavigabarDemo */,
 				60D6C7BC204E468B005B0D69 /* LYUIFoldDemo */,
 				606BEB072016E4E200E40A62 /* LYRuntimeDemo */,
 				609F5B171FFBC6D800B28EF2 /* LYSlideMenuDemo */,
@@ -504,6 +525,7 @@
 				606BEB0A2016E50700E40A62 /* LYRuntimeViewController.m in Sources */,
 				60D33ABA1FE26D3C00086F15 /* AppDelegate.m in Sources */,
 				60962FE91FE8AD6D003F250A /* LYWaveView.m in Sources */,
+				60227858206CB6CE00070703 /* LYScrollNavigabarViewController.m in Sources */,
 				602036FC1FF13FE100E4DFA1 /* LYDragCellCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

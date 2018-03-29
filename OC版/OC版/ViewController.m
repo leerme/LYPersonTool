@@ -31,7 +31,8 @@
                           @"AliPayCellMoveDemo",
                           @"SlideMenuDemo",
                           @"RuntimeDemo",
-                          @"UIFoldDemo"];
+                          @"UIFoldDemo",
+                          @"ScrollNavigabaDemo"];
     self.tableView.rowHeight = 40;
     self.tableView.delegate = self.delegateManager;
     self.tableView.dataSource = self.delegateManager;
